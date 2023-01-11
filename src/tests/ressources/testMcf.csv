@@ -1,0 +1,11 @@
+Id,Nom,Bibliothèque de formes,ID de page,Contenu par,Groupe,Source de la ligne,Destination de la ligne,Source de la flèche,Destination de la flèche,Statut,Zone de texte 1
+1,Document,,,,,,,,,,Use case diagram
+2,Page,,,,,,,,,,Use case diagram
+3,Conteneur rectangulaire,UML,2,,,,,,,,Ecole
+4,Acteur,UML,2,,,,,,,,Prestataire Cantine
+5,Acteur,UML,2,,,,,,,,Prestataire Bureau
+6,Cas d'utilisation,UML,2,3,,,,,,,Cantine
+7,Cas d'utilisation,UML,2,3,,,,,,,Classe
+8,Cas d'utilisation,UML,2,3,,,,,,,Bureau
+9,Ligne,,2,,,4,6,None,Arrow,,F02:Recu
+10,Ligne,,2,,,5,8,Arrow,None,,F01:Commande

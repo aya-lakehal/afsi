@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="229.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controller.RegisterController">
+   <children>
+      <Label layoutX="119.0" layoutY="14.0" text="Inscription">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutY="45.0" prefHeight="142.0" prefWidth="335.0" text="Erreur lors de l'inscription veuillez bien vérifier que tout les champs sont renseignés." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="backPopUpButton" layoutY="200.0" mnemonicParsing="false" onAction="#register" prefHeight="31.0" prefWidth="335.0" text="Retour" />
+   </children>
+</AnchorPane>

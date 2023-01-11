@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="534.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controller.ModifyController">
+   <children>
+
+      <ChoiceBox fx:id="projectChoiceBox" layoutX="224.0" layoutY="106.0" prefWidth="150.0" />
+      <TextField fx:id="nameField" layoutX="32.0" layoutY="169.0" prefHeight="25.0" prefWidth="321.0" />
+      <Label layoutX="32.0" layoutY="139.0" text="Nouveau nom de projet" />
+      <Label layoutX="32.0" layoutY="211.0" text="Nouvelle description du projet " />
+      <Label layoutX="159.0" layoutY="29.0" text="Modifier le projet ">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="487.0" layoutY="464.0" mnemonicParsing="false" onAction="#cancel" prefHeight="32.0" prefWidth="104.0" style="-fx-background-color: red; -fx-border-color: black;" text="Annuler" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="validateButton" layoutX="213.0" layoutY="420.0" mnemonicParsing="false" onAction="#modify" prefHeight="67.0" prefWidth="180.0" style="-fx-background-color: green; -fx-border-color: black;" text="Valider" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="descriptionField" layoutX="33.0" layoutY="243.0" prefHeight="159.0" prefWidth="321.0" />
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="224.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
